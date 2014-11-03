@@ -17,4 +17,8 @@ public class Counter {
 	public void resetResult() {
 		result = 0;
 	}
+
+	public void setResult(int newResult) {
+		result = newResult;
+	}
 }
