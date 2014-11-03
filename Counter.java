@@ -13,4 +13,8 @@ public class Counter {
 			result += i + 1;
 		}
 	}
+
+	public void resetResult() {
+		result = 0;
+	}
 }
