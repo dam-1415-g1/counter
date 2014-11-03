@@ -8,7 +8,11 @@ public class Program {
 		counter.count();
 		System.out.println("El contingut de result és: " + counter.getResult());
 		for (int i=1;i<=4;i++){
-			System.out.println("El número actual és:" + i);
+			if (i==4){
+				System.out.println("Quatre");
+			}else{
+				System.out.println("El número actual és:" + i);
+			}
 		}
 	}
 
