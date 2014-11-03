@@ -7,12 +7,8 @@ public class Counter {
 	public int getResult() {
 		return result;
 	}
-<<<<<<< HEAD
-	/*Metode count suma fins a deu*/
-=======
 
 	/* Metode count suma fins a deu */
->>>>>>> 4356f9d697aa6855418ec34d229dcd0d7bd250d5
 	public void count() {
 		for (int i = 0; i < 10; i++) {
 			result += i + 1;
