@@ -10,6 +10,8 @@ public class Program {
 		for (int i=1;i<=4;i++){
 			if (i==4){
 				System.out.println("Quatre");
+			}else if(i==2){
+				System.out.println("Dos");
 			}else{
 				System.out.println("El número actual és:" + i);
 			}
