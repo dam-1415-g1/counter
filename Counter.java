@@ -7,7 +7,7 @@ public class Counter {
 	public int getResult() {
 		return result;
 	}
-//Metode count suma fins a deu
+	/*Metode count suma fins a deu*/
 	public void count() {
 		for (int i = 0; i < 10; i++) {
 			result += i + 1;
