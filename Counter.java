@@ -13,7 +13,7 @@ public class Counter {
 			result += i + 1;
 		}
 	}
-
+	/* Metode posa result a 0*/
 	public void resetResult() {
 		result = 0;
 	}
